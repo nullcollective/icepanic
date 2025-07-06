@@ -6,17 +6,17 @@ $ sudo lsmod | grep icepanic | wc -l
 0
 ```
 
-## INSTALL
+### INSTALL
 ```
 make
 sudo insmod icepanic.ko
 ```
 
-## RUN
+### RUN
 ```
 cat /proc/cpuinfo
 ```
-## CLEAN (optional)
+### CLEAN (optional)
 ```
 make clean
 ```
